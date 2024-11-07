@@ -1,0 +1,8 @@
+li a{
+    font-weight: 500;
+    color: white;
+}
+
+li a.active{
+    color: #FEBF00;
+}
