@@ -6,7 +6,7 @@ import star from "../../assets/star.png";
 
 const Banner = () => {
   return (
-    <div>
+    <div className="">
       <div className="relative py-8 md:py-24 lg:py-40 px-5 flex flex-col md:flex-row gap-8 md:gap-0 items-center">
         <div className="z-10 text-white ">
           <h1 className="text-5xl md:text-7xl lg:text-8xl uppercase font-bebas md:bg-gradient-to-r from-[#BD1F1700] to-[#BD1F17B2] pr-5 py-5">

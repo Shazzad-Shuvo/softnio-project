@@ -26,7 +26,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className="sticky top-0 z-50">
+    <div className="">
       <div className="flex justify-between px-5 py-8 relative">
         <div className="flex items-center gap-20">
           <img src={logo} alt="Website Logo" />
