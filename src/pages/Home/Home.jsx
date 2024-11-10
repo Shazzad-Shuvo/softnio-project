@@ -4,6 +4,7 @@ import InnerContainer from "../../containers/InnerContainer/InnerContainer";
 
 import bgImage from "../../assets/header_bg.jpg";
 import About from "../../components/About/About";
+import PopularFood from "../../components/PopularFood/PopularFood";
 
 const Home = () => {
   return (
@@ -24,6 +25,11 @@ const Home = () => {
       <div className="relative">
         <InnerContainer>
           <About></About>
+        </InnerContainer>
+      </div>
+      <div className="relative bg-[#FBF7F2]">
+        <InnerContainer>
+          <PopularFood></PopularFood>
         </InnerContainer>
       </div>
     </div>

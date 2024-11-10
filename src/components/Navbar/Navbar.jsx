@@ -50,7 +50,7 @@ const Navbar = () => {
 
   return (
     <div className="">
-      <div className="flex justify-between px-5 py-8 relative">
+      <div className="flex justify-between px-5 py-4 relative">
         <div className="flex items-center gap-20">
           <img src={logo} alt="Website Logo" />
           <ul className="hidden lg:flex gap-10">
