@@ -2,7 +2,11 @@
 
 Live Link: - [Restaurant](https://softnio-restaurant.web.app)
 
-Currently, two official plugins are available:
+Packages Used:
+- React-router-dom
+- react-tabs for handling tab section
+- swiper-js for sliders in 'Popular Food' and 'Testimonial' section
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Responsive screen sized used based on tailwind css breakpoints.
+
+
