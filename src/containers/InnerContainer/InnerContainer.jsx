@@ -1,7 +1,7 @@
 
 const InnerContainer = ({children}) => {
     return (
-        <div className="max-w-[1140px] mx-auto">
+        <div className="max-w-[1320px] mx-auto">
             {children}
         </div>
     );

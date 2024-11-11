@@ -8,6 +8,7 @@ import PopularFood from "../../components/PopularFood/PopularFood";
 import headerBgImage from "../../assets/header_bg.jpg";
 import bookTableBgImage from "../../assets/book_table.png";
 import BookTable from "../../components/BookTable/BookTable";
+import Testimonials from "../../components/Testimonials/Testimonials";
 
 
 const Home = () => {
@@ -37,6 +38,11 @@ const Home = () => {
       <div className="bg-cover bg-no-repeat" style={{backgroundImage: `url(${bookTableBgImage})`}}>
         <InnerContainer>
           <BookTable></BookTable>
+        </InnerContainer>
+      </div>
+      <div className="relative">
+        <InnerContainer>
+          <Testimonials></Testimonials>
         </InnerContainer>
       </div>
     </div>

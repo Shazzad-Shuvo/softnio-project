@@ -1,16 +1,6 @@
-import { FaSquareFull } from "react-icons/fa";
+// components
 import FoodCard from "../FoodCard/FoodCard";
-
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-
-// import required modules
-import { Autoplay, Navigation } from "swiper/modules";
+import SectionHeading from "../SectionHeading/SectionHeading";
 
 // image
 import popularFoodSideImage from "../../assets/popular_food_side_img.png";
@@ -21,7 +11,18 @@ import { IoIosArrowBack } from "react-icons/io";
 
 // ui data
 import foods from "../../uiData/foodCardData";
-import SectionHeading from "../SectionHeading/SectionHeading";
+
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/navigation";
+
+// import required modules
+import { Autoplay, Navigation } from "swiper/modules";
+
+
 
 const PopularFood = () => {
   return (
@@ -33,7 +34,7 @@ const PopularFood = () => {
         tagLine='Crispy, Every Bite Taste'
         heading='POPULAR FOOD ITEMS'
         ></SectionHeading>
-
+        {/* swiper navigation buttons */}
         <div className="absolute md:static bottom-10 left-1/2 transform -translate-x-1/2 md:transform-none">
           <button className="swiper-button-prev-custom p-3 mx-4 border rounded-full border-transparent shadow-lg">
             <IoIosArrowBack className="hover:text-[#BD1F17] text-lg"></IoIosArrowBack>

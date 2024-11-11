@@ -9,7 +9,7 @@ const Main = () => {
 
     <div>
       
-      <div className="max-w-[90rem] mx-auto">
+      <div className="max-w-[120rem] mx-auto">
         <Outlet></Outlet>
       </div>
     </div>

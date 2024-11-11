@@ -1,7 +1,6 @@
 
 
 const FoodCard = ({food}) => {
-  console.log(food);
   return (
     <div className="bg-white py-8 px-12 text-center">
       <div className="flex justify-center">
