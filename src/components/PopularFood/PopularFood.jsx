@@ -21,20 +21,19 @@ import { IoIosArrowBack } from "react-icons/io";
 
 // ui data
 import foods from "../../uiData/foodCardData";
+import SectionHeading from "../SectionHeading/SectionHeading";
 
 const PopularFood = () => {
   return (
-    <div className="my-24 py-24 px-5 ">
+    <div className="py-10 lg:py-24 px-5">
       {/* popular food text */}
       <div className="flex justify-between items-center">
-        <div>
-          <span className="flex items-center gap-3 text-[#BD1F17]">
-            <FaSquareFull className="text-xs"></FaSquareFull>{" "}
-            <p className="font-semibold">Crispy, Every Bite Taste</p>
-          </span>
-          <h1 className="text-4xl font-bebas mt-5">POPULAR FOOD ITEMS</h1>
-        </div>
-        {/* swiper nav buttons */}
+        {/* section heading */}
+        <SectionHeading 
+        tagLine='Crispy, Every Bite Taste'
+        heading='POPULAR FOOD ITEMS'
+        ></SectionHeading>
+
         <div className="absolute md:static bottom-10 left-1/2 transform -translate-x-1/2 md:transform-none">
           <button className="swiper-button-prev-custom p-3 mx-4 border rounded-full border-transparent shadow-lg">
             <IoIosArrowBack className="hover:text-[#BD1F17] text-lg"></IoIosArrowBack>

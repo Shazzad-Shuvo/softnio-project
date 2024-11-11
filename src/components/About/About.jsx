@@ -18,7 +18,7 @@ const About = () => {
   const tabClass = "bg-[#B52B1D] text-white";
 
   return (
-    <div className="my-24 px-5">
+    <div className="my-10 lg:my-24 px-5">
       <div className="flex flex-col md:flex-row gap-10">
         <div className="flex-1 relative">
           <img src={aboutImage} className="w-[620px]" alt="About Image" />
