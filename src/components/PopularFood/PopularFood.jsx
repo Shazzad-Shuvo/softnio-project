@@ -35,7 +35,7 @@ const PopularFood = () => {
         heading='POPULAR FOOD ITEMS'
         ></SectionHeading>
         {/* swiper navigation buttons */}
-        <div className="absolute md:static bottom-10 left-1/2 transform -translate-x-1/2 md:transform-none">
+        <div className="absolute md:static bottom-10 left-1/2 transform -translate-x-1/2 md:transform-none mt-20">
           <button className="swiper-button-prev-custom p-3 mx-4 border rounded-full border-transparent shadow-lg">
             <IoIosArrowBack className="hover:text-[#BD1F17] text-lg"></IoIosArrowBack>
           </button>
@@ -77,7 +77,7 @@ const PopularFood = () => {
           },
         }}
         modules={[Autoplay, Navigation]}
-        className="mySwiper my-8 w-full"
+        className="mySwiper my-20 md:my-8 w-full"
       >
         {foods.map((food) => (
           <SwiperSlide key={food.id}>
