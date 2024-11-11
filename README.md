@@ -1,6 +1,6 @@
-# React + Vite
+# Restaurant Task
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live Link: - [Restaurant](https://softnio-restaurant.web.app)
 
 Currently, two official plugins are available:
 
