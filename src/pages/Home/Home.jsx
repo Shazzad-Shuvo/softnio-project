@@ -9,18 +9,25 @@ import headerBgImage from "../../assets/header_bg.jpg";
 import bookTableBgImage from "../../assets/book_table.png";
 import BookTable from "../../components/BookTable/BookTable";
 import Testimonials from "../../components/Testimonials/Testimonials";
-
+import footerBgImage from "../../assets/footer_bg_image.png";
+import Footer from "../../components/Footer/Footer";
 
 const Home = () => {
   return (
     <div>
-        {/* Header */}
-      <div className="sticky top-0 w-full z-50 bg-cover bg-center bg-no-repeat bg-transparent" style={{backgroundImage: `url(${headerBgImage})`}}>
+      {/* Header */}
+      <div
+        className="sticky top-0 w-full z-50 bg-cover bg-center bg-no-repeat bg-transparent"
+        style={{ backgroundImage: `url(${headerBgImage})` }}
+      >
         <InnerContainer>
           <Navbar></Navbar>
         </InnerContainer>
       </div>
-      <div className="bg-cover bg-center bg-no-repeat" style={{backgroundImage: `url(${headerBgImage})`}}>
+      <div
+        className="bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url(${headerBgImage})` }}
+      >
         <InnerContainer>
           <Banner></Banner>
         </InnerContainer>
@@ -35,7 +42,10 @@ const Home = () => {
           <PopularFood></PopularFood>
         </InnerContainer>
       </div>
-      <div className="bg-cover bg-no-repeat" style={{backgroundImage: `url(${bookTableBgImage})`}}>
+      <div
+        className="bg-cover bg-no-repeat"
+        style={{ backgroundImage: `url(${bookTableBgImage})` }}
+      >
         <InnerContainer>
           <BookTable></BookTable>
         </InnerContainer>
@@ -44,6 +54,16 @@ const Home = () => {
         <InnerContainer>
           <Testimonials></Testimonials>
         </InnerContainer>
+      </div>
+      <div
+        className="bg-cover bg-no-repeat"
+        style={{ backgroundImage: `url(${footerBgImage})` }}
+      >
+        <div className=" inset-0 bg-black/80">
+          <InnerContainer>
+            <Footer></Footer>
+          </InnerContainer>
+        </div>
       </div>
     </div>
   );
